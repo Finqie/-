@@ -1,0 +1,7 @@
+C:\Users\Kuliti\gitt\bkit\Лаб1\bin\Debug\Лаб1.exe.config
+C:\Users\Kuliti\gitt\bkit\Лаб1\bin\Debug\Лаб1.exe
+C:\Users\Kuliti\gitt\bkit\Лаб1\bin\Debug\Лаб1.pdb
+C:\Users\Kuliti\gitt\bkit\Лаб1\obj\Debug\Лаб1.csprojAssemblyReference.cache
+C:\Users\Kuliti\gitt\bkit\Лаб1\obj\Debug\Лаб1.csproj.CoreCompileInputs.cache
+C:\Users\Kuliti\gitt\bkit\Лаб1\obj\Debug\Лаб1.exe
+C:\Users\Kuliti\gitt\bkit\Лаб1\obj\Debug\Лаб1.pdb
