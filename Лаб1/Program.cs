@@ -19,21 +19,21 @@ namespace ConsoleApp1
                 Console.WriteLine("Введите коэффициент A: ");
                 if (!Double.TryParse(Console.ReadLine(), out a)){
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Корней нет! Введите коэф. повторно");
+                    Console.WriteLine("Коэф. введены неверно! Введите коэф. повторно");
                     continue;
                 }
                 Console.WriteLine("Введите коэффициент B: ");
                 if (!Double.TryParse(Console.ReadLine(), out b))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Корней нет! Введите коэф. повторно");
+                    Console.WriteLine("Коэф. введены неверно! Введите коэф. повторно");
                     continue;
                 }
                 Console.WriteLine("Введите коэффициент C: ");
                 if (!Double.TryParse(Console.ReadLine(), out c))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Корней нет или коэф. введены неверно! Введите коэф. повторно");
+                    Console.WriteLine("Коэф. введены неверно! Введите коэф. повторно");
                     continue;
                 }
                 Console.ForegroundColor = ConsoleColor.Green;
@@ -128,7 +128,7 @@ namespace ConsoleApp1
                 if (i == -1)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Корней нет или коэф. введены неверно! Введите коэф. повторно");
+                    Console.WriteLine("Корней нет! Введите коэф. повторно");
                 }
             }
             int k = 1;
