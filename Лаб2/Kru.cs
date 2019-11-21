@@ -10,7 +10,7 @@ namespace Лаб2
     {
         public override double Plo()
         {
-            return 6.28 * Rad * Rad;
+            return 3.14 * Rad * Rad;
         }
         public double Rad { get; set; }
         public Kru(double a)

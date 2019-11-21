@@ -16,24 +16,22 @@ namespace ConsoleApp1
             {
                 Console.ResetColor();
                 double a, b, c, d;
-                Console.WriteLine("Введите коэффициент A: ");
-                if (!Double.TryParse(Console.ReadLine(), out a)){
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Корней нет! Введите коэф. повторно");
-                    continue;
-                }
-                Console.WriteLine("Введите коэффициент A: ");
-                if (!Double.TryParse(Console.ReadLine(), out b))
+                Console.WriteLine("Введите коэффициенты уравнения ");
+                if (args.Length == 0)
+                    return;
+
+                if (args.Length != 3)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Корней нет! Введите коэф. повторно");
+                    Console.WriteLine("Коэф. введены неверно! Введите коэф. повторно");
                     continue;
                 }
-                Console.WriteLine("Введите коэффициент C: ");
-                if (!Double.TryParse(Console.ReadLine(), out c))
+                if (!Double.TryParse(args[0], out a) ||
+                !Double.TryParse(args[1], out b) ||
+                !Double.TryParse(args[2], out c))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Корней нет! Введите коэф. повторно");
+                    Console.WriteLine("Коэф. введены неверно! Введите коэф. повторно");
                     continue;
                 }
                 Console.ForegroundColor = ConsoleColor.Green;
