@@ -1,4 +1,5 @@
-﻿using System;
+﻿using
+System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,19 +17,22 @@ namespace ConsoleApp1
             {
                 Console.ResetColor();
                 double a, b, c, d;
-                Console.WriteLine("Введите коэффициенты уравнения ");
-                if (args.Length == 0)
-                    return;
-
-                if (args.Length != 3)
+                Console.WriteLine("Введите коэффициент A: ");
+                if (!Double.TryParse(Console.ReadLine(), out a))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Коэф. введены неверно! Введите коэф. повторно");
                     continue;
                 }
-                if (!Double.TryParse(args[0], out a) ||
-                !Double.TryParse(args[1], out b) ||
-                !Double.TryParse(args[2], out c))
+                Console.WriteLine("Введите коэффициент B: ");
+                if (!Double.TryParse(Console.ReadLine(), out b))
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Коэф. введены неверно! Введите коэф. повторно");
+                    continue;
+                }
+                Console.WriteLine("Введите коэффициент C: ");
+                if (!Double.TryParse(Console.ReadLine(), out c))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Коэф. введены неверно! Введите коэф. повторно");
@@ -59,7 +63,6 @@ namespace ConsoleApp1
                         }
                     }
                 }
-
                 if ((a == 0) && (b == 0))
                 { }
                 else
@@ -94,16 +97,16 @@ namespace ConsoleApp1
                                     if (xx >= 0)
                                     {
                                         korni.Add(Math.Sqrt((-b + Math.Sqrt(d)) / (2 *
-                                       a)));
+                                        a)));
                                         korni.Add(-Math.Sqrt((-b + Math.Sqrt(d)) / (2 *
-                                       a)));
+                                        a)));
                                     }
                                     if (yy >= 0)
                                     {
                                         korni.Add(Math.Sqrt((-b - Math.Sqrt(d)) / (2 *
-                                       a)));
+                                        a)));
                                         korni.Add(-Math.Sqrt((-b - Math.Sqrt(d)) / (2 *
-                                       a)));
+                                        a)));
                                     }
                                 }
                             }
@@ -115,12 +118,10 @@ namespace ConsoleApp1
                                     korni.Add((-Math.Sqrt(-b / a)));
                                 }
                                 korni.Add(0);
-
                             }
                         }
                     }
                 }
-
                 foreach (int itt in korni)
                     i++;
                 if (i == -1)
@@ -148,4 +149,4 @@ namespace ConsoleApp1
             Console.ReadKey();
         }
     }
-}
+}
