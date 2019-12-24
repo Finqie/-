@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Лаб2
 {
-    class Pry : Fig
+    public class Pry : Fig
     {
         public override double Plo()
         {
@@ -22,7 +22,7 @@ namespace Лаб2
         }
         public override string ToString()
         {
-            return ($"Прямоугольник. Высота{ Vis} . Ширина {Shi}. Площадь {Plo()}.");/*{base.ToString()}*/
+            return ($"Прямоугольник. Площадь {Plo()}.");/*{base.ToString()}*/
         }
     }
 }

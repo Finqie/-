@@ -13,10 +13,29 @@ namespace ConsoleApp1
             int i = -1;
             Console.Title = "Коваль Иван РТ5-31Б";
             var korni = new List<double>();
+            bool argsPassed = (args.Length == 3);
             while (i == -1)
             {
                 Console.ResetColor();
                 double a, b, c, d;
+                if (argsPassed)
+                {
+                    try
+                    {
+                        a = double.Parse(args[0]);
+                        b = double.Parse(args[1]);
+                        c = double.Parse(args[2]);
+                    }
+                    catch
+                    {
+                        Console.WriteLine("Коэф. неверные.");
+                        continue;
+                    }
+                    finally
+                    {
+                        argsPassed = false;
+                    }
+                }
                 Console.WriteLine("Введите коэффициент A: ");
                 if (!Double.TryParse(Console.ReadLine(), out a))
                 {

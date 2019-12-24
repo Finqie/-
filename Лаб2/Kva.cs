@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Лаб2
 {
-    class Kva : Pry
+    public class Kva : Pry
     {
         public Kva(double a)
         {
@@ -15,7 +15,7 @@ namespace Лаб2
         }
         public override string ToString()
         {
-            return ($"Квадрат. Высота{ Vis} . Ширина {Shi}. Площадь {Plo()}.");
+            return ($"Квадрат. Площадь {Plo()}.");
         }
     }
 }

@@ -1,0 +1,11 @@
+C:\Users\Kuliti\gitt\bkit\bkit\Лаб3\bin\Debug\Лаб3.exe.config
+C:\Users\Kuliti\gitt\bkit\bkit\Лаб3\bin\Debug\Лаб3.exe
+C:\Users\Kuliti\gitt\bkit\bkit\Лаб3\bin\Debug\Лаб3.pdb
+C:\Users\Kuliti\gitt\bkit\bkit\Лаб3\bin\Debug\Лаб2.exe
+C:\Users\Kuliti\gitt\bkit\bkit\Лаб3\bin\Debug\Лаб2.pdb
+C:\Users\Kuliti\gitt\bkit\bkit\Лаб3\bin\Debug\Лаб2.exe.config
+C:\Users\Kuliti\gitt\bkit\bkit\Лаб3\obj\Debug\Лаб3.csprojAssemblyReference.cache
+C:\Users\Kuliti\gitt\bkit\bkit\Лаб3\obj\Debug\Лаб3.csproj.CoreCompileInputs.cache
+C:\Users\Kuliti\gitt\bkit\bkit\Лаб3\obj\Debug\Лаб3.csproj.CopyComplete
+C:\Users\Kuliti\gitt\bkit\bkit\Лаб3\obj\Debug\Лаб3.exe
+C:\Users\Kuliti\gitt\bkit\bkit\Лаб3\obj\Debug\Лаб3.pdb

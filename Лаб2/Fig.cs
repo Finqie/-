@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Лаб2
 {
-    abstract class Fig : IPrint
+    public abstract class Fig : IPrint, IComparable
     {
 
         public void Print()
@@ -14,6 +14,11 @@ namespace Лаб2
             Console.WriteLine(ToString());
         }
         public abstract double Plo();
+
+        public int CompareTo(object obj)
+        {
+            return (Convert.ToInt32(Plo() - (obj as Fig).Plo()));
+        }
 
     }
 }

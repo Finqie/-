@@ -5,3 +5,10 @@ C:\Users\Kuliti\gitt\bkit\Лаб2\obj\Debug\Лаб2.csprojAssemblyReference.cach
 C:\Users\Kuliti\gitt\bkit\Лаб2\obj\Debug\Лаб2.csproj.CoreCompileInputs.cache
 C:\Users\Kuliti\gitt\bkit\Лаб2\obj\Debug\Лаб2.exe
 C:\Users\Kuliti\gitt\bkit\Лаб2\obj\Debug\Лаб2.pdb
+C:\Users\Kuliti\gitt\bkit\bkit\Лаб2\bin\Debug\Лаб2.exe.config
+C:\Users\Kuliti\gitt\bkit\bkit\Лаб2\bin\Debug\Лаб2.exe
+C:\Users\Kuliti\gitt\bkit\bkit\Лаб2\bin\Debug\Лаб2.pdb
+C:\Users\Kuliti\gitt\bkit\bkit\Лаб2\obj\Debug\Лаб2.csprojAssemblyReference.cache
+C:\Users\Kuliti\gitt\bkit\bkit\Лаб2\obj\Debug\Лаб2.csproj.CoreCompileInputs.cache
+C:\Users\Kuliti\gitt\bkit\bkit\Лаб2\obj\Debug\Лаб2.exe
+C:\Users\Kuliti\gitt\bkit\bkit\Лаб2\obj\Debug\Лаб2.pdb

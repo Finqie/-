@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Лаб2
 {
-    class Kru : Fig
+    public class Kru : Fig
     {
         public override double Plo()
         {
@@ -19,7 +19,7 @@ namespace Лаб2
         }
         public override string ToString()
         {
-            return ($"Круг. Радус{ Rad}. Площадь {Plo()}.");
+            return ($"Круг. Площадь {Plo()}.");
         }
     }
 }
