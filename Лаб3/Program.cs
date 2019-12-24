@@ -18,11 +18,19 @@ namespace Лаб3
             c = new Kru(4);
         var AL = new ArrayList(); // Создание коллекции AL(ArrayList)
             AL.Add(a);
-            AL.Add(b);
             AL.Add(c);
-            Console.WriteLine("Вывод площади элементов:"); //Вывод коллекции
+            AL.Add(b);
+            Console.WriteLine("Вывод площади элементов:"); //Вывод коллекции AL(ArrayList)
             foreach (Fig f in AL)
                 Console.WriteLine(f);
+            var FL = new List<Fig>(); // Создание коллекции FL(List<Figure>)
+            FL.Add(a);
+            FL.Add(b);
+            FL.Add(c);
+            FL.Sort();
+            foreach (Fig f in FL)// Вывод отсортированной коллекции FL(List<Figure>)
+                Console.WriteLine(f);
+
             Console.ReadKey();
         }
     }
